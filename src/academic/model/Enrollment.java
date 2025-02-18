@@ -20,7 +20,7 @@ public class Enrollment {
         this.major = _major;
  
     }
-
+ 
     public String getStudentId() {return this.studentId;}
     public void setStudentId(String _studentId) {this.studentId = _studentId;}  //metode set kode
 

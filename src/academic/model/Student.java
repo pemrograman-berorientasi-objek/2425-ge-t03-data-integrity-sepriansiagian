@@ -17,7 +17,7 @@ public class Student {
         this.admissionYear = admissionYear;
         this.major = major;
     }
-
+  
     public String getStudentId() {return studentId;}
     public void setStudentId(String studentId) {this.studentId = studentId;} //metode set kode
 
