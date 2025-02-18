@@ -70,7 +70,7 @@ public class Driver1 {
         for (int i = inputs.size() - 1; i >= 0; i--) {
             System.out.println(inputs.get(i));
         }
-        System.out.println("---");
+       
 
         for (int i = courses.size() - 1; i >= 0; i--) {
             System.out.println(courses.get(i));
