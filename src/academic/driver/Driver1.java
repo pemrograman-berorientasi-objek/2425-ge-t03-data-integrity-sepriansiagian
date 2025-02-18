@@ -72,7 +72,7 @@ public class Driver1 {
         }
        
 
-        for (int i = courses.size() - 1; i >= 0; i--) {
+        for (int i = courses.size() - 1; i >= 0; i++) {
             System.out.println(courses.get(i));
         }
         for (int i = students.size() - 1; i >= 0; i--) {
