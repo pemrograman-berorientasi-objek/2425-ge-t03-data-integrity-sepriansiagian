@@ -17,6 +17,8 @@ public class Driver1 {
         ArrayList<Course> courses = new ArrayList<>();
         ArrayList<Student> students = new ArrayList<>();
         ArrayList<Enrollment> enrollments = new ArrayList<>();
+        ArrayList<String> inputs = new ArrayList<>();
+
 
         while (true) {
             String input = scanner.nextLine();
@@ -65,16 +67,19 @@ public class Driver1 {
             }
         }
 
-        for (Course course : courses) {
-            System.out.println(course);
+        for (int i = inputs.size() - 1; i >= 0; i--) {
+            System.out.println(inputs.get(i));
         }
+        System.out.println("---");
 
-        for (Student student : students) {
-            System.out.println(student);
-        } 
-
-        for (Enrollment enrollment : enrollments) {
-            System.out.println(enrollment + "|None");
+        for (int i = courses.size() - 1; i >= 0; i--) {
+            System.out.println(courses.get(i));
+        }
+        for (int i = students.size() - 1; i >= 0; i--) {
+            System.out.println(students.get(i));
+        }
+        for (int i = enrollments.size() - 1; i >= 0; i--) {
+            System.out.println(enrollments.get(i) + "|None");
         }
 
         scanner.close();

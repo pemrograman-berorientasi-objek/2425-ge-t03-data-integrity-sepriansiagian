@@ -58,12 +58,13 @@ public class Driver2 {
                             String academicYear = parts[3];
                             String semester = parts[4];
 
-                            enrollments.add(new Enrollment(courseCode, studentId, academicYear, semester));
+            
+                                enrollments.add(new Enrollment(courseCode, studentId, academicYear, semester));
+                            }
                         }
                         break;
                 }
             }
-        }
 
         for (Course course : courses) {
             System.out.println(course);
